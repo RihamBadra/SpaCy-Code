@@ -1,0 +1,56 @@
+1. Parties Involved
+
+Service Provider: XY
+Customer: CustomerZ
+Agreement Date: 2025-06-09
+Effective Period: 2025-06-10
+
+2. Service Description
+
+Service Name: 5G Connectivity Service
+Service Scope: High-speed, low-latency wireless connectivity using 5G NR (New Radio) technology.
+Coverage Area: [Geographic Area or Locations]
+Service Tiers: [e.g., Basic, Premium, Enterprise]
+
+3. Performance Metrics
+
+Availability: ≥ 99.99% uptime per calendar month
+Latency: ≤ 10 ms (one-way)
+Throughput:
+Downlink: ≥ 1 Gbps
+Uplink: ≥ 100 Mbps
+Jitter: ≤ 5 ms
+Packet Loss: ≤ 0.1%
+
+4. Monitoring and Reporting
+
+Monitoring Tools: [Provider Monitoring Dashboard]
+Reporting Frequency: Monthly
+Report Delivery Method: [Email, Web Portal]
+
+5. Support and Maintenance
+
+Support Hours: 24/7
+Incident Response Time:
+Critical: ≤ 15 minutes
+Major: ≤ 1 hour
+Minor: ≤ 4 hours
+Planned Maintenance Notification: Minimum 48 hours in advance
+
+6. Penalties and Remedies
+
+Service Credits:
+Availability < 99.99%: 5% monthly fee credit
+Latency > 10 ms: 3% monthly fee credit
+Maximum Credit Cap: 25% of monthly service fee
+
+7. Termination Conditions
+
+Breach of SLA: Termination allowed after 3 consecutive months of non-compliance
+Notice Period: 30 days written notice
+
+8. Miscellaneous
+
+Governing Law: [Jurisdiction]
+Amendments: Must be in writing and signed by both parties
+Confidentiality: Both parties agree to maintain confidentiality of SLA terms

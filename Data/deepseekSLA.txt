@@ -1,0 +1,60 @@
+5G SERVICE LEVEL AGREEMENT (SLA)
+Service Provider: Telco Solutions Inc.
+Customer: Enterprise Client Ltd.
+Effective Date: 01-Oct-2025
+Review Cycle: Quarterly
+
+1. SERVICE AVAILABILITY
+Target: 99.95% monthly uptime
+
+Measurement:
+
+Exclusions: Scheduled maintenance (max 4hrs/month, notified 72hrs in advance)
+
+Formula: (Total Minutes - Downtime) / Total Minutes
+
+Penalty: 5% service credit per 0.1% below target
+
+2. NETWORK LATENCY
+Target: ≤20ms end-to-end (UE to Core)
+
+Scope: Urban zones (per coverage map in Appendix A)
+
+Measurement: 95th percentile of hourly probes
+
+Penalty: 3% service credit per 1ms sustained breach
+
+3. DOWNLINK THROUGHPUT
+Target: ≥500 Mbps peak / ≥200 Mbps average per device
+
+Conditions: Non-congested network, <50 concurrently active UEs
+
+Measurement: Daily speed tests (9 AM–5 PM, workdays)
+
+Penalty: 2% service credit per 10% deviation
+
+4. RELIABILITY
+Target: ≤0.001% packet loss
+
+Measurement: ICMP probes every 5 minutes
+
+Penalty: 4% service credit per 0.0005% breach
+
+5. FAULT RESTORATION
+Critical Faults: ≤4 hours
+
+Non-Critical Faults: ≤24 hours
+
+Penalty: $500/hour delay beyond target
+
+6. REPORTING & SUPPORT
+KPI Reports: Monthly (by 5th of next month)
+
+Support: 24/7 helpdesk (max 15-min response for P1 tickets)
+
+Audit Rights: Customer may request measurement logs quarterly
+
+7. SERVICE CREDITS
+Max Annual Credit: 20% of monthly fee
+
+Claim Window: 30 days from report receipt

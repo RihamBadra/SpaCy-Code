@@ -1,0 +1,348 @@
+5G SERVICE LEVEL AGREEMENT (SLA)
+Service Provider: Telco Solutions Inc.
+Customer: Enterprise Client Ltd.
+Effective Date: 01-Oct-2025
+Review Cycle: Quarterly
+
+1. SERVICE AVAILABILITY
+Target: 99.95% monthly uptime
+
+Measurement:
+
+Exclusions: Scheduled maintenance (max 4hrs/month, notified 72hrs in advance)
+
+Formula: (Total Minutes - Downtime) / Total Minutes
+
+Penalty: 5% service credit per 0.1% below target
+
+2. NETWORK LATENCY
+Target: ≤20ms end-to-end (UE to Core)
+
+Scope: Urban zones (per coverage map in Appendix A)
+
+Measurement: 95th percentile of hourly probes
+
+Penalty: 3% service credit per 1ms sustained breach
+
+3. DOWNLINK THROUGHPUT
+Target: ≥500 Mbps peak / ≥200 Mbps average per device
+
+Conditions: Non-congested network, <50 concurrently active UEs
+
+Measurement: Daily speed tests (9 AM–5 PM, workdays)
+
+Penalty: 2% service credit per 10% deviation
+
+4. RELIABILITY
+Target: ≤0.001% packet loss
+
+Measurement: ICMP probes every 5 minutes
+
+Penalty: 4% service credit per 0.0005% breach
+
+5. FAULT RESTORATION
+Critical Faults: ≤4 hours
+
+Non-Critical Faults: ≤24 hours
+
+Penalty: $500/hour delay beyond target
+
+6. REPORTING & SUPPORT
+KPI Reports: Monthly (by 5th of next month)
+
+Support: 24/7 helpdesk (max 15-min response for P1 tickets)
+
+Audit Rights: Customer may request measurement logs quarterly
+
+7. SERVICE CREDITS
+Max Annual Credit: 20% of monthly fee
+
+Claim Window: 30 days from report receipt
+
+Service Level Agreement (SLA) - 5G Enhanced Mobile Broadband (eMBB) Service
+
+Agreement ID: SLA-5G-eMBB-001-20250626
+Effective Date: 2025-07-01
+Service Provider: NexGen Telecom Inc.
+Customer: Enterprise Solutions Corp.
+Service Type: 5G Enhanced Mobile Broadband (eMBB) - High-Capacity Data Service
+
+1. Service Description
+
+This SLA outlines the terms and conditions for the provision of a dedicated 5G Enhanced Mobile Broadband (eMBB) service to Enterprise Solutions Corp. This service is designed to deliver high-throughput, low-latency connectivity primarily for data-intensive applications, including but not limited to, cloud computing, high-definition video streaming, and large file transfers.
+
+2. Service Scope
+
+Geographic Coverage: Primary service area: Metropolitan Region X, with secondary coverage in Industrial Zone Y. Specific cell IDs and coverage maps are attached as Appendix A.
+
+User Devices: Support for 5G-compliant devices (smartphones, tablets, IoT gateways) utilizing the designated SIM cards/eSIM profiles provided by NexGen Telecom Inc.
+
+Traffic Prioritization: eMBB traffic will receive priority over best-effort traffic within the defined service slices.
+
+3. Service Level Objectives (SLOs) and Performance Metrics
+
+The following performance metrics will be measured and monitored to ensure the agreed-upon service levels are met. All measurements are based on aggregated data over 15-minute intervals, unless otherwise specified.
+
+3.1. Throughput (Downlink)
+
+Objective: Average downlink throughput of 1 Gbps (Gigabits per second).
+
+Minimum Guaranteed: 750 Mbps.
+
+Measurement Point: User Plane Function (UPF) egress to customer premises equipment (CPE).
+
+Reporting Frequency: Daily aggregated reports, monthly detailed reports.
+
+3.2. Throughput (Uplink)
+
+Objective: Average uplink throughput of 200 Mbps.
+
+Minimum Guaranteed: 150 Mbps.
+
+Measurement Point: CPE ingress to UPF ingress.
+
+Reporting Frequency: Daily aggregated reports, monthly detailed reports.
+
+3.3. Latency (Round Trip Time - RTT)
+
+Objective: Average end-to-end latency of less than 10 ms (milliseconds).
+
+Maximum Tolerated: 15 ms for 99.9% of traffic.
+
+Measurement Point: From customer device to designated core network gateway.
+
+Reporting Frequency: Hourly aggregated reports, weekly detailed reports.
+
+3.4. Jitter
+
+Objective: Maximum jitter of 2 ms.
+
+Measurement Point: From customer device to designated core network gateway.
+
+Reporting Frequency: Hourly aggregated reports, weekly detailed reports.
+
+3.5. Packet Loss Rate
+
+Objective: Less than 0.01% packet loss.
+
+Maximum Tolerated: 0.05%.
+
+Measurement Point: End-to-end across the 5G network segment.
+
+Reporting Frequency: Daily aggregated reports.
+
+3.6. Service Availability
+
+Objective: 99.99% availability of the 5G eMBB service within the primary service area.
+
+Definition: Uptime measured as the percentage of time the service is fully operational and accessible to the customer. Planned maintenance windows are excluded.
+
+Reporting Frequency: Monthly.
+
+4. Service Credits and Penalties
+
+In the event that NexGen Telecom Inc. fails to meet the agreed-upon Service Level Objectives (SLOs) for a given month, the Customer shall be entitled to service credits as follows:
+
+Availability:
+
+99.9% to < 99.99% availability: 5% service credit on monthly fee.
+
+99.0% to < 99.9% availability: 10% service credit on monthly fee.
+
+< 99.0% availability: 20% service credit on monthly fee.
+
+Throughput (Downlink/Uplink) - if Minimum Guaranteed is not met for more than 5% of the reporting period: 5% service credit on monthly fee per metric.
+
+Latency/Packet Loss/Jitter - if Maximum Tolerated is exceeded for more than 1% of the reporting period: 5% service credit on monthly fee per metric.
+
+Service credits will be applied to the subsequent month's invoice. Total service credits in any given month shall not exceed 25% of the total monthly service fee.
+
+5. Responsibilities of the Parties
+
+5.1. NexGen Telecom Inc. (Service Provider):
+
+Maintain the 5G network infrastructure to meet the specified SLOs.
+
+Provide 24/7 technical support.
+
+Monitor service performance and provide regular reports to the Customer.
+
+Notify Customer of planned maintenance activities at least 72 hours in advance.
+
+Respond to and resolve service incidents within the defined support windows.
+
+5.2. Enterprise Solutions Corp. (Customer):
+
+Provide necessary access to customer premises for equipment installation and maintenance.
+
+Ensure proper functioning of customer-owned equipment (CPE) and devices.
+
+Notify NexGen Telecom Inc. promptly of any service issues.
+
+Adhere to the fair usage policy (if applicable, detailed in Appendix B).
+
+6. Support and Incident Management
+
+6.1. Support Channels:
+
+Online Portal: Available 24/7 for incident reporting and tracking.
+
+Phone Support: [+XX XXXX XXXX] (24/7 for critical incidents, 9 AM - 5 PM M-F for general inquiries).
+
+Email Support: support@nexgentelecom.com (Monitored 9 AM - 5 PM M-F).
+
+6.2. Incident Prioritization:
+
+Critical (P1): Complete service outage or severe degradation impacting all users. Target Resolution Time (TRT): 4 hours.
+
+High (P2): Significant service degradation impacting a subset of users or critical applications. TRT: 8 hours.
+
+Medium (P3): Minor service degradation or intermittent issues. TRT: 24 hours.
+
+Low (P4): General inquiries or non-service impacting issues. TRT: 48 hours.
+
+6.3. Reporting and Communication: NexGen Telecom Inc. will provide regular updates on incident status until resolution.
+
+7. Dispute Resolution
+
+Any disputes arising from this SLA shall first be attempted to be resolved through good-faith negotiation between the parties. If an amicable resolution cannot be reached within 30 days, either party may escalate the dispute to formal mediation.
+
+8. Termination
+
+This SLA may be terminated by either party with 60 days' written notice, subject to the terms of the master service agreement between NexGen Telecom Inc. and Enterprise Solutions Corp.
+
+9. Review and Amendment
+
+This SLA will be reviewed annually on the anniversary of the Effective Date or sooner if significant changes in service requirements or network capabilities occur. Any amendments must be mutually agreed upon in writing.
+
+
+1. Parties Involved
+
+Service Provider: XY
+Customer: CustomerZ
+Agreement Date: 2025-06-09
+Effective Period: 2025-06-10
+
+2. Service Description
+
+Service Name: 5G Connectivity Service
+Service Scope: High-speed, low-latency wireless connectivity using 5G NR (New Radio) technology.
+Coverage Area: [Geographic Area or Locations]
+Service Tiers: [e.g., Basic, Premium, Enterprise]
+
+3. Performance Metrics
+
+Availability: ≥ 99.99% uptime per calendar month
+Latency: ≤ 10 ms (one-way)
+Throughput:
+Downlink: ≥ 1 Gbps
+Uplink: ≥ 100 Mbps
+Jitter: ≤ 5 ms
+Packet Loss: ≤ 0.1%
+
+4. Monitoring and Reporting
+
+Monitoring Tools: [Provider Monitoring Dashboard]
+Reporting Frequency: Monthly
+Report Delivery Method: [Email, Web Portal]
+
+5. Support and Maintenance
+
+Support Hours: 24/7
+Incident Response Time:
+Critical: ≤ 15 minutes
+Major: ≤ 1 hour
+Minor: ≤ 4 hours
+Planned Maintenance Notification: Minimum 48 hours in advance
+
+6. Penalties and Remedies
+
+Service Credits:
+Availability < 99.99%: 5% monthly fee credit
+Latency > 10 ms: 3% monthly fee credit
+Maximum Credit Cap: 25% of monthly service fee
+
+7. Termination Conditions
+
+Breach of SLA: Termination allowed after 3 consecutive months of non-compliance
+Notice Period: 30 days written notice
+
+8. Miscellaneous
+
+Governing Law: [Jurisdiction]
+Amendments: Must be in writing and signed by both parties
+Confidentiality: Both parties agree to maintain confidentiality of SLA terms
+
+**5G Service Level Agreement (SLA)**
+
+**1. General Information**
+
+* **AgreementID**: SLA-5G-001
+* **Provider**: NextGen Mobile Networks
+* **Customer**: Acme Corp
+* **ServiceName**: 5G Enhanced Mobile Broadband (eMBB)
+* **EffectiveDate**: 2025-07-01
+* **ExpirationDate**: 2026-06-30
+
+**2. Service Scope**
+
+* **CoverageArea**: Urban and suburban zones in Region-X
+* **SupportedDevices**: 3GPP Release 16 compliant devices
+* **UseCases**: Video streaming, AR/VR, industrial IoT
+
+**3. Performance Metrics**
+
+* **Availability**:
+
+  * **Target**: 99.99%
+  * **MeasurementPeriod**: Monthly
+
+* **Latency**:
+
+  * **Target**: ≤ 5 ms (edge-to-edge)
+  * **MeasurementPeriod**: Continuous
+
+* **Throughput**:
+
+  * **Downlink**: ≥ 1 Gbps
+  * **Uplink**: ≥ 500 Mbps
+  * **MeasurementPeriod**: Peak hours (17:00–21:00 local time)
+
+* **Jitter**:
+
+  * **Target**: ≤ 10ms
+
+**4. Fault Management**
+
+* **IncidentResponseTime**: ≤ 15 minutes
+* **IncidentResolutionTime**: ≤ 4 hours (Priority 1 incidents)
+* **Monitoring**: 24/7 NOC monitoring
+
+**5. Penalties and Remedies**
+
+* **AvailabilityBreach**:
+
+  * **Threshold**: < 99.5%
+  * **Credit**: 10% monthly fee refund
+* **LatencyBreach**:
+
+  * **Threshold**: > 10 ms average for over 3hours
+  * **Credit**: 5% monthly fee refund
+* **MaximumTotalCredit**: 30% of monthly fee
+
+**6. Reporting**
+
+* **Frequency**: Monthly
+* **Format**: PDF, XML
+* **DeliveryMethod**: Email to customer-designated recipient
+
+**7. Contact Information**
+
+* **ProviderSupportEmail**: [support@nextgen-networks.com](mailto:support@nextgen-networks.com)
+* **ProviderSupportPhone**: +1-800-555-5GSL
+* **CustomerContact**: [itops@acme-corp.com](mailto:itops@acme-corp.com)
+
+**8. Terms and Termination**
+
+* **TerminationNoticePeriod**: 30 days
+* **Renewal**: Auto-renewal annually unless terminated
