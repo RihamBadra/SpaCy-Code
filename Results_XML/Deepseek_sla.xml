@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<SLA>
+	<Service>
+		<level>5</level>
+		<effectivedate>01082024</effectivedate>
+		<availability>99.95</availability>
+		<frequencytarget>99.95<target>Mbps</target></frequencytarget>
+		<uptime>99.95<uptime>%</uptime></uptime>
+		<networkcredit>0.1%</networkcredit>
+		<latency>2ms</latency>
+		<measurement><hourly>7</hourly></measurement>
+		<downlink>3<mbps>Mbps</mbps></downlink>
+		<throughput>3<peak>Mbps</peak></throughput>
+		<daily>9<pm>9</pm></daily>
+		<reliability>4</reliability>
+		<packetloss>0.1%</packetloss>
+		<fault>5<restoration>5<hours>hours</hours></restoration></fault>
+		<reporting>6</reporting>
+		<month>5th</month>
+		<support>24/7</support>
+		<days>30</days>
+	</Service>
+</SLA>

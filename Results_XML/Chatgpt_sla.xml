@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<SLA>
+	<Service>
+		<servicename>5</servicename>
+		<effectivedate>2025</effectivedate>
+		<expirationdate>2026</expirationdate>
+		<release>16</release>
+		<devices>16</devices>
+		<performancemetrics><target>99.99ms</target><edge>5gbps</edge></performancemetrics>
+		<hours>4hours</hours>
+		<faultmanagement>4days<priority>4hours</priority><incidents>1</incidents></faultmanagement>
+		<monitoring>24/7</monitoring>
+		<penalties>5<credit>%</credit></penalties>
+		<fee>6<fee>%</fee></fee>
+		<refund>5%</refund>
+		<terminationnoticeperiod>30<days>30</days></terminationnoticeperiod>
+	</Service>
+</SLA>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<SLA>
+	<Service>
+		<date>2025</date>
+		<description>sla</description>
+		<connectivity>5</connectivity>
+		<latency>10<latency>ms</latency></latency>
+		<enterprise>xyz</enterprise>
+		<performance>3<metrics>3</metrics></performance>
+		<availability>99.99<availability>%</availability></availability>
+		<uptime>99.99<uptime>%</uptime></uptime>
+		<downlink>1<gbps>1</gbps></downlink>
+		<uplink>100<uplink>Mbps</uplink></uplink>
+		<jitter>5<jitter>ms</jitter></jitter>
+		<packetloss>0.1%</packetloss>
+		<monitoring>4</monitoring>
+		<support>24/7<support>Hours</support></support>
+		<maintenance>48<maintenance>Hours</maintenance></maintenance>
+		<response>24/7</response>
+		<critical>15<minutes>minutes</minutes></critical>
+		<major><hour>1</hour></major>
+		<minor><hours>4</hours></minor>
+		<notification>48<minimum>hours</minimum></notification>
+		<advance>6hours</advance>
+		<penalties>6%</penalties>
+		<fee>7<fee>%</fee></fee>
+		<credit>10<credit>%</credit></credit>
+		<termination>7days</termination>
+		<notice>30	<days>30</days></notice>
+	</Service>
+</SLA>
